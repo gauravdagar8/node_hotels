@@ -2,7 +2,7 @@
 
 const passport = require('passport');
 const localstrategy = require('passport-local').Strategy; //Username and password strategy
-const personHandle = './models/person.js';
+const personHandle = '/models/person.js';
 const Person = require(personHandle);
 
 
