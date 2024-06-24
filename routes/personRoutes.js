@@ -91,7 +91,7 @@ router.get('/', async (req,res) =>{
             const respone = await Person.find({work: workType});
             console.log('data fetched');
             res.status(200).json(respone);
-            respone.write(JSON.stringify({data : respone}));
+            // respone.write(JSON.stringify({data : respone}));
             // res.sendFile(filePath);
             
           }
